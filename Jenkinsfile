@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/vkhalaim/jmeter_perf_test-'
-            }
-        }
 
         stage('Run JMeter') {
             steps {
