@@ -1,0 +1,6 @@
+fullName,address,postalCode,city,country,phone,email,comment
+John Smith,123 Main Street Apt 4,10001,New York,US,+12025550111,john.smith.fake@gmail.com,Please deliver after 6 PM
+Anna Kowalska,45 Green Avenue,00-123,Warsaw,UA,+380501234567,anna.kowalska.fake@gmail.com,Leave package at the door
+Michael Brown,78 Sunset Boulevard,90028,Los Angeles,US,+13105559876,michael.brown.fake@gmail.com,Call before delivery
+Olena Shevchenko,12 Shevchenka Street,01001,Kyiv,UA,+380671112233,olena.shevchenko.fake@gmail.com,Fragile items inside
+David Miller,9 King Road,SW1A 1AA,London,US,+447700900123,david.miller.fake@gmail.com,Office address
