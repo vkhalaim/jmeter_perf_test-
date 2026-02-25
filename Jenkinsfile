@@ -9,7 +9,9 @@ pipeline {
         stage('Run JMeter Test') {
             steps {
                 sh '''
-                mkdir -p reports/jmeter
+                REPORT_DIR=reports/jmeter/${BUILD_NUMBER}
+
+                mkdir -p ${REPORT_DIR}
 
                 /opt/jmeter/apache-jmeter-5.6.3/bin/jmeter \
                   -n \
@@ -17,9 +19,9 @@ pipeline {
                   -Jusers=3 \
                   -Jramp_up=5 \
                   -Jduration=600 \
-                  -l reports/jmeter/results.jtl \
+                  -l ${REPORT_DIR}/results.jtl \
                   -e \
-                  -o reports/jmeter/html
+                  -o ${REPORT_DIR}/html
                 '''
             }
         }
