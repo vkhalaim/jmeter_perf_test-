@@ -1,0 +1,42 @@
+2026-03-10 19:52:50,627 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-03-10 19:52:50,639 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/apache-jmeter-5.6.3/bin/user.properties
+2026-03-10 19:52:50,639 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/apache-jmeter-5.6.3/bin/system.properties
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: Version 5.6.3
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: java.version=17.0.18
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: os.name=Linux
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: os.arch=amd64
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: os.version=6.17.0-14-generic
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: java.awt.headless=null
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-03-10 19:52:50,643 INFO o.a.j.JMeter: Available Processors =12
+2026-03-10 19:52:50,649 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-03-10 19:52:50,649 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-03-10 19:52:50,649 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter/apache-jmeter-5.6.3
+2026-03-10 19:52:50,649 INFO o.a.j.JMeter: user.dir  =/home/vasyl/Desktop/EPAM performance/jmeter_perf_test 
+2026-03-10 19:52:50,649 INFO o.a.j.JMeter: PWD       =/home/vasyl/Desktop/EPAM performance/jmeter_perf_test 
+2026-03-10 19:52:50,649 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: vasyl-Aspire FullName: vasyl-Aspire
+2026-03-10 19:52:50,658 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-03-10 19:52:50,808 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-03-10 19:54:09,618 INFO o.a.j.s.FileServer: Default base='/home/vasyl/Desktop/EPAM performance/jmeter_perf_test '
+2026-03-10 19:54:09,619 INFO o.a.j.g.a.Load: Loading file: /home/vasyl/Desktop/EPAM performance/jmeter_perf_test /Products-Test.jmx
+2026-03-10 19:54:09,619 INFO o.a.j.s.FileServer: Set new base='/home/vasyl/Desktop/EPAM performance/jmeter_perf_test '
+2026-03-10 19:54:09,714 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-03-10 19:54:09,718 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-03-10 19:54:09,719 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-03-10 19:54:09,720 INFO o.a.j.s.SaveService: Loading file: /home/vasyl/Desktop/EPAM performance/jmeter_perf_test /Products-Test.jmx
+2026-03-10 19:54:09,732 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-03-10 19:54:09,733 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2026-03-10 19:54:09,749 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-10 19:54:09,749 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-10 19:54:09,749 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-10 19:54:09,749 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-10 19:54:09,749 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-03-10 19:54:09,749 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-03-10 19:54:09,869 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-03-10 19:54:09,870 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-03-10 19:54:09,870 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-03-10 19:54:09,870 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-03-10 19:54:10,182 INFO o.a.j.s.FileServer: Set new base='/home/vasyl/Desktop/EPAM performance/jmeter_perf_test '
